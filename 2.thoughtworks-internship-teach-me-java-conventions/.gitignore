@@ -1,0 +1,5 @@
+.github
+.gradle
+build
+gradlew
+settings.gradle

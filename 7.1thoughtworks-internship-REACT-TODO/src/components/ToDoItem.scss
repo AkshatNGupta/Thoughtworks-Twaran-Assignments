@@ -1,0 +1,27 @@
+.to-do-item{
+    width: 100%;
+    min-width: 20rem;
+    margin: 2rem 2rem;
+    font-size: large;
+    background-color: rgb(15, 32, 63);
+    border-radius: 5rem;
+    // display: block;
+    display: flex;
+}
+.to-do-text{
+    margin-left: 2rem;
+    padding-left: 0;
+    margin-right: auto;
+}
+
+.to-do-remover{
+    margin-left: auto;
+    margin-right: 2rem;
+    // justify-items: right;
+    font-size: medium;
+    color: rgb(70, 70, 70);
+}
+.to-do-remover:hover{
+    color: rgb(255, 82, 82);
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.to-do-item {
+  width: 100%;
+  min-width: 20rem;
+  margin: 2rem 1rem;
+  font-size: large;
+  background-color: #1b0012;
+  border-radius: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.to-do-text {
+  margin-left: 2rem;
+  padding-left: 0;
+  margin-right: auto;
+}
+
+.to-do-remover {
+  margin-left: auto;
+  margin-right: 2rem;
+  font-size: medium;
+  color: #eeff00;
+}
+
+.to-do-remover:hover {
+  color: #ff5252;
+  cursor: pointer;
+}
+/*# sourceMappingURL=ToDoItem.css.map */

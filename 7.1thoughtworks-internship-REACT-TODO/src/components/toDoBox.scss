@@ -1,0 +1,51 @@
+.to-do-box{
+    margin-top: 6rem;
+    min-width: 40%;
+    max-width: 10rem;
+    justify-items: center;
+    h2, .to-do-input{
+        display: flex;
+        justify-content: center;
+    }
+    // background-color: white;
+    // text-justify: center;
+    
+}
+.to-do-list{
+    width: 100%;
+    margin-top: 3rem;
+    flex-wrap: nowrap;
+}
+.to-do-input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.do-item{
+    font-family: 'Indie Flower', cursive;
+    font-size: large;
+    padding-left: 2rem;
+    width: 30rem;
+    height: 2.5rem;
+    border-radius: 6rem;
+    background-color: rgb(210, 213, 216);
+}
+.btn{
+    font-size: 3rem;
+    margin-left: 1rem;
+    width: 3.25rem;
+    height: 3.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(42, 94, 153);
+    border: 2px solid rgb(5, 7, 7);
+}
+.btn:hover {
+    background-color: rgb(57, 107, 163);
+    cursor: pointer;
+  }
+.do-item:focus {
+    border: none;
+}

@@ -1,0 +1,74 @@
+.to-do-box {
+  margin-top: 6rem;
+  min-width: 40%;
+  max-width: 10rem;
+  justify-items: center;
+}
+
+.to-do-box h2,
+.to-do-box .to-do-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.to-do-list {
+  width: 100%;
+  margin-top: 3rem;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.to-do-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.do-item {
+  font-family: "Indie Flower", cursive;
+  font-size: large;
+  padding-left: 2rem;
+  width: 30rem;
+  height: 2.5rem;
+  border-radius: 6rem;
+  background-color: #d2d5d8;
+}
+
+.btn {
+  font-size: 3rem;
+  margin-left: 1rem;
+  width: 3.25rem;
+  height: 3.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #7cff40;
+  border: 2px solid #050707;
+}
+
+.btn:hover {
+  background-color: #396ba3;
+  cursor: pointer;
+}
+
+.do-item:focus {
+  border: none;
+}
+/*# sourceMappingURL=toDoBox.css.map */
